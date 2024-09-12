@@ -100,7 +100,7 @@ export default function Header() {
       <div className="px-10 max-md:px-3 flex h-14 items-center">
         <div className="mr-4 hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <span className="hidden font-bold text-xl sm:inline-block">AnymeY</span>
+            <span className="hidden font-bold text-xl sm:inline-block">WaaNiMe</span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium ml-5">
             {navItems.map((item) => (
@@ -174,7 +174,7 @@ function MobileNav({ navItems }) {
   return (
     <div className="grid gap-6 p-6 pt-20">
       <Link href="/" className="flex items-center space-x-2">
-        <span className="font-bold">AnymeY</span>
+        <span className="font-bold">WaaNiMe</span>
       </Link>
       <nav className="grid gap-4">
         {navItems.map((item) => (
@@ -226,7 +226,7 @@ function SearchDialog({
       </DialogTrigger>
       <DialogContent className="max-md:w-[95%] md:max-w-[700px] lg:max-w-[900px]">
         <DialogHeader>
-          <DialogTitle>Search AnymeY</DialogTitle>
+          <DialogTitle>Search WaaNiMe</DialogTitle>
         </DialogHeader>
         <Tabs defaultValue="anime" className="mt-4">
           <TabsList className="grid w-full grid-cols-2">
