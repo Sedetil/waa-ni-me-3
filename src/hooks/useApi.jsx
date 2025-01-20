@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { jaroWinklerDistance } from "./jaro-winkler";
-const PROXY = "https://anymey-proxy.vercel.app/cors?url=";
+const PROXY = "https://sup-proxy.zephex0-f6c.workers.dev/api-json?url=";
 const apiLink = "https://api-anime-org-wanzz.vercel.app";
 const BASE_URL = "https://api-anime-org-wanzz.vercel.app/meta/anilist/";
 const ANIWATCH_URL = "https://aniwatch-api-wanzz.vercel.app/anime/";
